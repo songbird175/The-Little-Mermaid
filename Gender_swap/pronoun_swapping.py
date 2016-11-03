@@ -8,14 +8,14 @@ story = ["Far beneath the ocean waves, in the land of the merpeople, lived a lov
 "home was an undersea palace. Although it was quite magnificent, ", "she ", "hardly ever spent time there. ", "She ", "preferred to go exploring with ", "her ",
 "little friend Flounder, the fish.\n", "Ariel loved to collect objects from the world above the sea. ", "She ",
 "and Flounder would swim in and out of sunken ships, picking up whatever caught the Little ", "Mermaid's ", "fancy.\n\n",
-"Ariel’s father, King Triton, ruled the undersea kingdom. ", "He ", "was very proud of Ariel’s many gifts, especially ", "her ", "beautiful singing voice. ",
-"He ", "had arranged to give a special concert to show his ", "daughter's ",
+"Ariel’s father, ", "King ", "Triton, ruled the undersea kingdom. ", "He ", "was very proud of Ariel’s many gifts, especially ", "her ", "beautiful singing voice. ",
+"He ", "had arranged to give a special concert to show ", "his ", "daughter's ",
 "wonderful talent to all the merfolk.\nAriel’s sisters sang to begin the concert. Then they sang a special song to introduce Ariel.\nBut Ariel wasn’t there!\nTriton was not pleased. How could Ariel have forgotten to show up for ",
 "her ", "own debut?\n\nAs usual, Ariel was off exploring. ", "They ", "had found a sunken ship to play in and had forgotten all about the concert. By the time ",
 "they ", "returned home, the guests had left. Triton was so angry that ", "he ", "ordered Sebastian, a crab who was his court composer, to follow Ariel and keep ",
 "them ", "out of trouble.\n\nLater that day, Ariel slipped away again, with Sebastian following close behind. ", "They ",
 "hadn’t gone far when a huge shadow darkened the waters above.\n“It’s a ship!” ", "she ", "gasped with delight.\n\nAriel swam to the surface to get a closer look. There were humans on board! One of them was very handsome. Ariel heard the others call ",
-"him ", "Prince ", "Eric.\n\nBut as Ariel watched, a sudden storm took them all by surprise. To ", "their ", "horror, the ship began to sink. Most of the people on board were able to climb safely into a lifeboat. But the handsome young ",
+"him ", "Prince ", "Eric.\n\n", "But as Ariel watched, a sudden storm took them all by surprise. To ", "their ", "horror, the ship began to sink. Most of the people on board were able to climb safely into a lifeboat. But the handsome young ",
 "prince ", "was hit by a falling spar and thrown into the churning water.\n\nAriel knew that humans could not live under the sea. ",
 "They ", "had to save the unconscious ", "prince. ", "There was no time to lose!\n\nAriel darted through the waves to the prince as ",
 "their ", "friend, Scuttle, watched anxiously.\n\nUsing all ", "her ", "strength, Ariel dragged the young ", "prince ", "to shore. Scuttle was waiting for them. The silly bird put ",
@@ -109,6 +109,10 @@ for number in range(0, iterations):
 		Ursula2_pro = "he "
 	elif number % 3 == 0:
 		Ursula2_pro = "they "
+
+
+
+
 
 	working_file.write("Version %s" % number + "\n")
 	working_file.write("Ariel: %s," % Acount + " Triton: %s," % Triton_pro + " Scuttle: %s," % Scuttle_pro +
