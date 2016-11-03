@@ -9,7 +9,7 @@ Acount = 0
 for number in range(0, iterations):
 	number += 1
 
-	working_file = open("NewRewrite_%s" % str(number), "w")
+	working_file = open("The_Little_Mermaid_Rewrite_%s" % str(number), "w")
 
 	if number % 3 == 1:
 		u2_she = "she"
