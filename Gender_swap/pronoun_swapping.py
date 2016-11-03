@@ -9,7 +9,12 @@ Acount = 0
 for number in range(0, iterations):
 	number += 1
 
-	working_file = open("The_Little_Mermaid_Rewrite_%s" % str(number), "w")
+	if number <= (iterations / 3):
+		working_file = open("../Ariel_she/The_Little_Mermaid_Rewrite_%s" % str(number), "w")
+	elif number > (iterations / 3) and number <= ((iterations / 3) * 2):
+		working_file = open("../Ariel_he/The_Little_Mermaid_Rewrite_%s" % str(number), "w")
+	elif number > ((iterations / 3) * 2):
+		working_file = open("../Ariel_they/The_Little_Mermaid_Rewrite_%s" % str(number), "w")
 
 	if number % 3 == 1:
 		u2_she = "she"
@@ -121,31 +126,30 @@ for number in range(0, iterations):
 							king = ""
 							King = ""
 
-						elif Ecount % 3 == 2:
-							e_His = "His"
-							e_he = "he"
-							e_He = "He"
-							e_him = "him"
-							e_his = "his"
-							e_His = "His"
-							man = "man"
-							himself = "himself"
-							prince = "prince"
-							Prince = "Prince"
-							Eric = "Eric"
-						elif Ecount % 3 == 0:
-							e_His = "Their"
-							e_he = "they"
-							e_He = "They"
-							e_him = "them"
-							e_his = "their"
-							e_His = "Their"
-							man = "human"
-							himself = "theirself"
-							prince = "human"
-							Prince = ""
-							Eric = "Eric"
-
+					elif Ecount % 3 == 2:
+						e_His = "His"
+						e_he = "he"
+						e_He = "He"
+						e_him = "him"
+						e_his = "his"
+						e_His = "His"
+						man = "man"
+						himself = "himself"
+						prince = "prince"
+						Prince = "Prince"
+						Eric = "Eric"
+					elif Ecount % 3 == 0:
+						e_His = "Their"
+						e_he = "they"
+						e_He = "They"
+						e_him = "them"
+						e_his = "their"
+						e_His = "Their"
+						man = "human"
+						himself = "theirself"
+						prince = "human"
+						Prince = ""
+						Eric = "Eric"
 
 				elif Scount % 3 == 2:
 					sc_His = "His"
