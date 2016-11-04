@@ -21,7 +21,6 @@ for number in range(0, iterations):
 		u2_She = "She"
 		u2_her = "her"
 		u2_herm = "her"
-		herself = "herself"
 		u_girl = "girl"
 		Ucount += 1
 
@@ -32,6 +31,7 @@ for number in range(0, iterations):
 			witch = "witch"
 			Witch = "Witch"
 			Ursula = "Ursula"
+			herself = "herself"
 			Secount += 1
 
 			if Secount % 3 == 1:
@@ -180,6 +180,7 @@ for number in range(0, iterations):
 			witch = "wizard"
 			Witch = "Wizard"
 			Ursula = "Ursus"
+			herself = "himself"
 		elif Ucount % 3 == 0:
 			u_she = "they"
 			u_She = "They"
@@ -187,24 +188,23 @@ for number in range(0, iterations):
 			witch = "witch"
 			Witch = "Witch"
 			Ursula = "Ursula"
+			herself = "theirself"
 
 	elif number % 3 == 2:
 		u2_she = "he"
 		u2_She = "He"
 		u2_her = "his"
 		u2_herm = "him"
-		herself = "himself"
 		u_girl = "boy"
 	elif number % 3 == 0:
 		u2_she = "they"
 		u2_She = "They"
 		u2_her = "their"
 		u2_herm = "them"
-		herself = "theirself"
 		u_girl = "human"
 
 	story = ["Far beneath the ocean waves, in the land of the merpeople, lived a lovely young ", mermaid, " named Ariel. ", Her,
-	" home was an undersea palace. Although it was quite magnificent, ", a_she, " hardly ever spent time there. ", a_She, " preferred to go exploring with ", a_herm,
+	" home was an undersea palace. Although it was quite magnificent, ", a_she, " hardly ever spent time there. ", a_She, " preferred to go exploring with ", a_her,
 	" little friend Flounder, the fish.\nAriel loved to collect objects from the world above the sea. ", a_She,
 	" and Flounder would swim in and out of sunken ships, picking up whatever caught the Little ", Mermaid, "\'s fancy.\n\nAriel\'s ", father, ", ", King,
 	" Triton, ruled the undersea kingdom. ", t_He, " was very proud of Ariel\'s many gifts, especially ", a_her, " beautiful singing voice. ", t_He,
@@ -227,7 +227,7 @@ for number in range(0, iterations):
 	e_his, " eyes, all ", e_he, " saw was ", e_his, " faithful dog, Max, running up to ", e_him, ".\n\nAriel returned home, but ", a_she,
 	" couldn\'t forget the human ", prince, ". As ", a_she, " sat thinking about ", e_him, ", two evil eels named Flotsam and Jetsam watched ", a_herm,
 	" with their cunning eyes.\n\n\"Come with us,\" they coaxed sweetly. \"We know someone who can help you.\"\nAriel followed the slippery eels. Before ",
-	a_she, "knew it, they were inside the deep, dark cave of ", Ursula, ", the Sea ", Witch, "!\n\n", Ursula, " knew how much Ariel missed ", Eric, ". ", u_She,
+	a_she, " knew it, they were inside the deep, dark cave of ", Ursula, ", the Sea ", Witch, "!\n\n", Ursula, " knew how much Ariel missed ", Eric, ". ", u_She,
 	" told the young ", mermaid, " that ", u_she, " could help ", a_herm, " visit ", e_him, " - for a price!\n\n\"I will make you human so you can visit your young ",
 	man, ",\" ", Ursula, " said. \"But you must get ", e_him,
 	" to fall in love and kiss you before the sun sets on the third day. If you fail, you will turn back into a ", mermaid,
